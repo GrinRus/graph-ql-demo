@@ -1,0 +1,10 @@
+management:
+  security.enabled: false
+  contextPath: /admin
+  endpoint:
+    metrics.enabled: true
+    prometheus.enabled: true
+  endpoints:
+    web:
+      base-path: /admin
+      exposure.include: "*"
